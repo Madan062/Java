@@ -13,8 +13,10 @@ public class M4 {
 
 	public static void main(String[] args) {
 		String result="";
+		
 		result=reverse("Madan");
 		System.out.println(result);
+		
 		System.out.println(reverse("Manikanta"));
 		
 

@@ -1,0 +1,17 @@
+package pkg1;
+
+public class M2 {
+
+	public static void main(String[] args) {
+		String s1="Madan";
+		String s2=" ";
+		s2=s2+s1.substring(5-1,5);
+		s2=s2+s1.substring(5-2,4);
+		s2=s2+s1.substring(5-3,3);
+		s2=s2+s1.substring(5-4,2);
+		s2=s2+s1.substring(5-5,1);
+		System.out.println(s2);
+
+	}
+
+}

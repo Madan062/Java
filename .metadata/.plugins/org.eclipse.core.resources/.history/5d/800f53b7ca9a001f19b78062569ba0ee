@@ -1,0 +1,21 @@
+package pkg1;
+
+public class M2 {
+
+	public static void main(String[] args) {
+		String s1="Madan";
+		String s2=" ";
+		s2=s1.substring(4,5);
+		System.out.println(s2);
+		s2=s1.substring(3,4);
+		System.out.println(s2);
+		s2=s1.substring(2,3);
+		System.out.println(s2);
+		s2=s1.substring(1,2);
+		System.out.println(s2);
+		s2=s1.substring(0,1);
+		System.out.println(s2);
+
+	}
+
+}
